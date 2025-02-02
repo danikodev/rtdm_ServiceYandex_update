@@ -1,0 +1,42 @@
+{
+    "id": "---",
+    "name": "Термометор",
+    "type": "devices.types.sensor.climate",
+    "capabilities": [
+      {
+      "type": "devices.capabilities.on_off",
+      "retrievable": true,
+      "reportable": true
+      }
+      ],
+    "properties": [
+        {
+          "type": "devices.properties.float",
+          "retrievable": true,
+          "reportable": true,
+          "parameters": {
+            "instance": "temperature",
+            "unit": "unit.temperature.celsius"
+          },
+          "state": {
+            "instance": "temperature",
+            "value": 26
+          },
+          "last_updated": "2022-10-18T15:53:54Z"
+        },
+        {
+          "type": "devices.properties.float",
+          "retrievable": true,
+          "reportable": true,
+          "parameters": {
+            "instance": "voltage",
+            "unit": "unit.volt"
+          },
+          "state": {
+            "instance": "voltage",
+            "value": 26
+          },
+          "last_updated": "2022-10-18T15:53:54Z"
+        }
+      ]
+}

@@ -1,0 +1,21 @@
+{
+    
+    "payload": {
+        "devices": [
+            {
+                "id": "abc-001",
+                "capabilities": [
+                    {
+                        "type": "devices.capabilities.on_off",
+                        "state": {
+                            "instance": "on",
+                            "action_result": {
+                                "status": "DONE"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+<h2>Login</h2>
+    <form method="POST" action="/authorize">
+        <label for="pincode">Пинкод:</label>
+        <input type="text" id="pincode" name="pincode" required><br>
+        <input type="submit" value="Отправить">
+    </form>
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}

@@ -1,0 +1,54 @@
+{
+    "request_id": "ff36a3cc-ec34-11e6-b1a0-64510650abcf",
+    "payload": {
+        "user_id": "---",
+        "devices": [
+            {
+                "id": "---",
+                "name": "Термометор",
+                "type": "devices.types.sensor.climate",
+                "capabilities": [
+                  {
+                  "type": "devices.capabilities.on_off",
+                  "retrievable": false,
+                  "reportable": false,
+                  "parameters": {
+                      "split": false
+                  }
+                  }
+                  ],
+                "properties": [
+                    {
+                      "type": "devices.properties.float",
+                      "retrievable": true,
+                      "reportable": true,
+                      "parameters": {
+                        "instance": "temperature",
+                        "unit": "unit.temperature.celsius"
+                      },
+                      "state": {
+                        "instance": "temperature",
+                        "value": 26
+                      },
+                      "last_updated": "2022-10-18T15:53:54Z"
+                    },
+                    {
+                      "type": "devices.properties.float",
+                      "retrievable": true,
+                      "reportable": true,
+                      "parameters": {
+                        "instance": "voltage",
+                        "unit": "unit.volt"
+                      },
+                      "state": {
+                        "instance": "voltage",
+                        "value": 26
+                      },
+                      "last_updated": "2022-10-18T15:53:54Z"
+                    }
+                  ]
+            }
+        ]
+        
+    }
+}
