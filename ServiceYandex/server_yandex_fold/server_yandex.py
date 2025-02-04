@@ -329,5 +329,5 @@ def token():
 #=============================================================================================================
 
 def server_yandex_process():
-    context=('/etc/letsencrypt/live/daniko.ddns.net/fullchain.pem','/etc/letsencrypt/live/daniko.ddns.net/privkey.pem')
+    context = ('/app/cert.pem', '/app/key.pem')
     app.run(host='0.0.0.0', port=5010, ssl_context=context) # ssl_context=context
